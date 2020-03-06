@@ -8,8 +8,6 @@
 #ifndef COORDINATE_H_
 #define COORDINATE_H_
 
-#include "Functions.h"
-
 struct Coordinate {
 	int x;
 	int y;
