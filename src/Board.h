@@ -46,7 +46,7 @@ Board::Board()  {
 void Board::setBoard(int bSize) {
 	boardSize = bSize;
 
-	// Initiate 2D array
+	// Resize 2D array to boardSize
 	board = new int *[boardSize];
 	for (int i = 0; i < boardSize; i++) {
 		board[i] = new int[boardSize];
